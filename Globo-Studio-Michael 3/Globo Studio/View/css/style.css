@@ -1,0 +1,439 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Krub", sans-serif;
+    scroll-snap-type: y mandatory;
+}
+
+nav {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+    background-image: url(/View/img/pagina1.jpeg);
+    background-size: 100% 100%;
+    text-decoration: none;
+}
+
+.lines {
+    cursor: pointer;
+    position: fixed;
+    top: 5%;
+    right: 5rem;
+}
+
+.line {
+    margin-top: 2px;
+    background-color: black;
+    width: 40px;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.desplegable {
+    display: flex;
+    justify-content: center;
+}
+
+.desplegable_primera {
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow:
+        -1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black,
+        1px -1px 0 black;
+}
+
+.encabezado {
+    color: white;
+    text-align: center;
+}
+
+.imgH {
+    width: 10%;
+    height: 8vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow:
+        -1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black,
+        1px -1px 0 black;
+}
+
+li {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.welcome {
+    font-size: 30px;
+    color: #F1EAFF;
+    margin-top: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.logoContenido {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    align-items: center;
+    height: 80%;
+}
+
+.imglogo {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 2;
+}
+
+.parrafoPrimero {
+    color: #000000;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 3rem;
+}
+
+.imgWha {
+    width: 20%;
+    height: 15vh;
+    margin-left: 6rem;
+}
+
+@media (min-width: 700px) {
+    .imgWha {
+        width: 20%;
+        height: 15vh;
+        margin-left: 6rem;
+    }
+    
+}
+
+.section {
+    background-image: url(/View/img/globos\ verdes.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.section2 {
+    background-image: url(/View/img/Leonardo_Phoenix_A_serene_and_whimsical_wallpaper_featuring_a_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.buttonContact {
+    cursor: pointer;
+    border-style: inset;
+}
+
+.buttonContact:hover {
+    color: rgb(7, 156, 156);
+}
+
+.forgotPassword {
+    cursor: pointer;
+    padding: 15px;
+}
+
+.forgotPassword:hover {
+    color: rgb(7, 156, 156);
+}
+
+.cajas,
+.cajas2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 {
+    background-image: url(/View/img/Leonardo_Phoenix_A_serene_and_whimsical_wallpaper_featuring_a_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.info,
+.info1,
+.info2,
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 23vh;
+    background-color: #e7f0dcba;
+    border-radius: 5px;
+    align-content: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(120, 120, 120, 0.93);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(120, 120, 120, 0.93);
+    box-shadow: 0px 5px 15px 0px rgba(120, 120, 120, 0.93);
+    margin-top: 30px;
+}
+
+
+.cajas1 {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.parrafo {
+    margin-left: 5px;
+    padding: 10px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.parrafo2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "krub", sans-serif;
+}
+
+.imgGallery {
+    width: 50%;
+}
+
+.imgBouquets {
+    width: 20%;
+    background-size: cover; 
+}
+
+.contenedorCatalogo {
+    width: 60%;
+    height: 60%;
+}
+
+.imgDragon {
+    max-width: 100%;
+}
+
+.buttonSee {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:700px) {
+    .imgDragon {
+        max-width: 80%;
+    }
+}
+
+
+.add {
+    background-color: #e7f0dcba;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-style: inset;
+    cursor: pointer;
+}
+
+th,
+td {
+    border-bottom: 2px solid black;
+    padding: 5px;
+
+}
+
+.cajaQuote {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+
+.codeVeri {
+    cursor: pointer;
+}
+
+.codeVeri:hover {
+    color: rgb(7, 156, 156);
+}
+
+.seleccionar {
+    padding: 2px;
+}
+
+table {
+    margin-top: 15px;
+    background-color: #e7f0dcba;
+    border-radius: 2%;
+    border-collapse: collapse;
+}
+
+.futer {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.buttonLog {
+    width: 70px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7f0dcba;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    border-style: inset;
+    cursor: pointer;
+}
+
+.buttonLog:hover {
+    color: rgb(7, 156, 156);
+}
+
+.logIn {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e7f0dcba;
+}
+
+.buttonContinue {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7f0dcba;
+    border-radius: 5%;
+    border-style: inset;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.buttonContinue:hover {
+    color: rgb(7, 156, 156);
+}
+
+.cajaQuot2 {
+    width: 100%;
+    height: 60%;
+}
+
+.buttonReg {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7f0dcba;
+    border-radius: 5%;
+    margin-top: 30px;
+    border-style: inset;
+    cursor: pointer;
+}
+
+.buttonReg:hover {
+    color: rgb(7, 156, 156);
+}
+
+@media (min-width: 600px) {
+
+    .section {
+        background-image: url(/View/img/afondo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cajas {
+        display: grid;
+        height: 80%;
+        justify-items: center;
+    }
+
+    .cajas2 {
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        justify-items: center;
+    }
+
+    .info,
+    .info1,
+    .info2,
+    .info3 {
+        height: 100%;
+        justify-content: center;
+    }
+
+    .info {
+        margin: 2rem;
+        height: 80%;
+    }
+
+    .info1 {
+        height: 100%;
+        justify-content: center;
+        grid-column: 1 / 4;
+        margin-bottom: 2rem;
+    }
+}
+
