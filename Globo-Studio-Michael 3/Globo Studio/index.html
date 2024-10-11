@@ -20,34 +20,36 @@
                 <div class="desplegable desplegable_primera" id="desplegable">
                     <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                     <h1 class="titulo1">Globo Studio</h1>
-                    <!-- <div id="abrir" class="lines">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div> -->
+                    <div class="lines">
+                        <button id="abrir">abrir</button>
+                    </div>
                 </div>
                 <div class="navLinks" id="navJs">
-                    <button class="li" id="b-about">ABOUT</button>
-                    <button class="li" id="b-service">SERVICES</button>
-                    <button class="li" id="b-galery">GALLERY</button>
-                    <button class="li" id="b-contact">CONTACT</button>
-                    <button class="li" id="b-login">LOGIN</button>
+                    <button class="li" id="b-inicio" onclick="mostrarMainContenido()">INICIO</button>
+                    <button class="li" id="b-about" onclick="mostrarAbout()">ABOUT</button>
+                    <button class="li" id="b-service" onclick="mostrarServices()">SERVICES</button>
+                    <button class="li" id="b-galery" onclick="mostrarGallery()">GALLERY</button>
+                    <button class="li" id="b-contact" onclick="mostrarQuotePrice()">QUOTE PRICE</button>
+                    <button class="li" id="b-login" onclick="mostrarLogin()">LOGIN</button>
+                    <button class="li" id="b-recovery" onclick="mostrarRecovery()">RECOVERY</button>
+                    <button class="li" id="b-register" onclick="mostrarRegister()">REGISTER</button>
                 </div>
             </nav>
         </template>
 
     </header>
     <main id="mainContenido">
+        
+    </main>
+    
+    <template id="inicio">
         <section class="section">
             <div class="contenedor">
                 <div class="desplegable">
                     <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                     <h1 class="welcome">WELCOME</h1>
                     <div class="lines">
-                        <!-- <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div> -->
-                        <button id="abrir">abrir</button>
+                        <button id="abrir" onclick="mostrarMenu()">abrir</button>
                     </div>
                 </div>
                 <div class="logoContenido">
@@ -63,13 +65,16 @@
             </div>
         </section>
 
-    </main>
+    </template>
     
     <template id="about">
         <section class="section2"> <!--Pagina 1 About-->
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">ABOUT</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <div class="cajas">
                 <div class="info1">
@@ -102,6 +107,9 @@
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">OUR SERVICES</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <div class="cajas2">
                 <div class="info">
@@ -130,11 +138,15 @@
             </div>
         </section>
     </template>
+
     <template id="galery">
         <section class="section2"> <!--Pagina 3 Gallery-->
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">GALLERY</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <div class="cajas1">
                 <h1 class="encabezado">Explore Our Designs</h1>
@@ -153,6 +165,9 @@
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">QUOTE PRICE</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <div class="cajaQuote">
                 <div class="seleccionar">
@@ -233,6 +248,9 @@
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">LOGIN</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <form>
                 <div class="logIn">
@@ -258,6 +276,9 @@
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">FORGOT PASSWORD</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <form>
                 <div class="logIn">
@@ -288,6 +309,9 @@
             <div class="desplegable">
                 <img class="imgH" src="/View/img/Logo-removebg-preview.png">
                 <h1 class="welcome">REGISTER</h1>
+                <div class="lines">
+                    <button id="abrir" onclick="mostrarMenu()">Abrir</button>
+                </div>
             </div>
             <div class="cajaQuote">
             <table>
